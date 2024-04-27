@@ -12,6 +12,7 @@
           <div class="q-gutter-y-xs">
             <q-form autofocus @submit="submitForm">
               <q-input
+                dense
                 label="Email *"
                 v-model="formState.email"
                 :rules="[
@@ -19,6 +20,7 @@
                 ]"
               ></q-input>
               <q-input
+                dense
                 label="Password *"
                 v-model="formState.password.value"
                 type="password"
