@@ -1,12 +1,3 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
-    <q-page-container>
-      <router-view />
-    </q-page-container>
-  </q-layout>
+  <h1 class="text-3xl font-bold underline">Hello world!</h1>
 </template>
-
-<script>
-import { defineComponent, ref } from "vue";
-export default defineComponent({});
-</script>
